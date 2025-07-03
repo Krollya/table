@@ -1,0 +1,13 @@
+table {
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr {
+  padding: 8px; 
+  background-color: #eee;
+}
