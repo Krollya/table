@@ -1,19 +1,20 @@
 table {
   width: 100%;
-  border-collapse: collapse; 
+  border-collapse: collapse; /* Объединяет границы ячеек */
   border: 1px solid #ccc;
 }
 
 th, td {
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc; /* Границы для всех ячеек */
   padding: 8px;
   text-align: left;
 }
 
 th {
   font-weight: bold;
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2; /* Светло-серый фон для заголовков */
 }
 
 tr:nth-child(even) {
-  background-color: #eee; 
+  background-color: #eee; /* Зебра - чередование цвета строк */
+}
