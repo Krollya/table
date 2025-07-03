@@ -1,23 +1,35 @@
+/* Основные стили таблицы */
 table {
-  border-collapse: collapse; /* Это ключевое свойство! */
   width: 100%;
-  border: 1px solid #000; /* Граница вокруг всей таблицы */
+  border-collapse: collapse; /* Важнейшее свойство! */
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
 }
 
-/* Границы для ячеек */
+/* Границы для всех ячеек */
+table, th, td {
+  border: 1px solid #333; /* Чёткие тёмные границы */
+}
+
+/* Стили ячеек */
 th, td {
-  border: 1px solid #000; /* Границы для всех ячеек */
-  padding: 8px;
+  padding: 12px;
   text-align: left;
 }
 
-/* Стиль для заголовков */
+/* Стили заголовков */
 th {
   background-color: #f2f2f2;
   font-weight: bold;
+  color: #333;
 }
 
 /* Чередование цвета строк */
 tr:nth-child(even) {
   background-color: #f9f9f9;
+}
+
+/* Эффект при наведении */
+tr:hover {
+  background-color: #e6f7ff;
 }
