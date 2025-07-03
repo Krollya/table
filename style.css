@@ -19,4 +19,5 @@ th {
 
 /* Чередование цвета строк */
 tr:nth-child(even) {
-  ba
+  background-color: #f9f9f9;
+}
